@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adding Input Box</title>
+<script src="js/main.js"></script>
+<style>
+
+	#one
+	{
+		margin: 10px;
+		
+	}
+	#two
+	{
+		margin-left: 10px;
+	}
+</style>
+</head>
+<body>
+	<center>
+	<form id="main">
+		
+		Enter Father Name<input id="first" type="text" name="father" value="" onblur="validation()"><br><br><br>
+		Enter Mother Name<input id="second" type="text" name="mother" value="" onblur="validation()"><br><br><br>
+		<!-- Enter No Of Child<input id="three" type="number" name="" value="" onkeyup="add()"></center> -->
+		Enter Child Name&emsp;&emsp;<input id ="click" type="text" name="child" >&emsp;<span onclick="add()">+</span><br>
+		
+	</form>
+	</center>
+</body>
+</html>
